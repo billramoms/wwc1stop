@@ -1,0 +1,5 @@
+﻿CREATE TABLE [dbo].[AzGroup] (
+    [Name] VARCHAR (28) NOT NULL,
+    CONSTRAINT [AzGroup_PK] PRIMARY KEY CLUSTERED ([Name] ASC)
+);
+
